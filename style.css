@@ -69,7 +69,7 @@ body {
 
 .mynavbar .navbar-brand,
 .offcanvas-title {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Sacramento", cursive;
   font-size: 3rem;
 }
 
@@ -219,6 +219,10 @@ body {
     text-transform: uppercase;
     font-size: 2rem;
     text-align: center;
+  }
+
+  .sticky-top {
+    overflow: hidden;
   }
 }
 
