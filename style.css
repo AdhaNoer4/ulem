@@ -332,6 +332,23 @@ body {
   border: 1px solid var(--pink);
 }
 
+footer {
+  width: 100%;
+  padding: 2rem 0 2rem 0;
+  background-color: var(--pink);
+  color: #fff;
+  font-size: 1rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer span {
+  display: block;
+}
+
 /* Media Query responsive */
 /* Extra Large */
 @media (max-width: 1200px) {
