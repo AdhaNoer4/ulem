@@ -341,7 +341,7 @@ footer {
 }
 
 footer a {
-  color: #fff;
+  color: #0a0a0a;
   text-decoration: none;
 }
 
@@ -349,6 +349,48 @@ footer span {
   display: block;
 }
 
+footer li {
+  display: inline;
+  list-style: none;
+  margin: 0.5rem;
+}
+
+footer li i {
+  color: black;
+}
+
+footer li i:hover,
+footer a:hover {
+  color: white;
+}
+
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  opacity: 0.5;
+  cursor: pointer;
+  color: white;
+  mix-blend-mode: difference;
+  animation: muter 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  line-height: 0;
+}
+
+@keyframes muter {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 /* Media Query responsive */
 /* Extra Large */
 @media (max-width: 1200px) {
